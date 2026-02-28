@@ -47,6 +47,20 @@
         a:hover {
             text-decoration: underline;
         }
+        .home-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 16px;
+            background: #6366f1;
+            color: white;
+            border-radius: 6px;
+            font-size: 0.9em;
+            transition: background 0.2s;
+        }
+        .home-link:hover {
+            background: #4f46e5;
+            text-decoration: none;
+        }
         @media (prefers-color-scheme: dark) {
             body {
                 background: #111;
@@ -66,6 +80,7 @@
     </style>
 </head>
 <body>
+    <a href="/" class="home-link">← Back to Home</a>
     <h1>Terms of Service</h1>
     <p class="last-updated"><strong>Last Updated:</strong> January 2025</p>
     
